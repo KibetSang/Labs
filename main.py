@@ -60,6 +60,10 @@ class Calculator:
         """
         return self.num1 * self.num2
 
+    def divide(self):
+        return self.num1 / self.num2
+
+
 
 # ------------------ Example Usage ------------------
 
@@ -70,3 +74,4 @@ kim = Calculator(2, 4)
 print("Addition:", kim.add())  # Output: 6
 print("Subtraction:", kim.sub())  # Output: -2
 print("Multiplication:", kim.mul())  # Output: 8
+print("Division:", kim.divide())
