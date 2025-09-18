@@ -75,3 +75,4 @@ print("Addition:", kim.add())  # Output: 6
 print("Subtraction:", kim.sub())  # Output: -2
 print("Multiplication:", kim.mul())  # Output: 8
 print("Division:", kim.divide())
+print("The codes here testing")
